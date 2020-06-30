@@ -18,4 +18,4 @@ make
 docker run -p 8080:8080 sunfoxcz/ipmiview:latest
 ```
 
-Then open your browser with address `http://localhost:8080`.
+Then open your browser with address `http://localhost:8080/vnc.html`.
