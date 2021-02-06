@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV DISPLAY=:0.0
 
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-ADD IPMIView_2.17.0_build.200505_bundleJRE_Linux_x64 /opt/IPMIView
+ADD IPMIView_2.18.0_build.201007_bundleJRE_Linux_x64 /opt/IPMIView
 
 RUN apt-get update
 RUN apt-get dist-upgrade -y --no-install-recommends
