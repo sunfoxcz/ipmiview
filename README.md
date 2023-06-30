@@ -12,6 +12,8 @@ This container runs:
 ## Usage
 
 ```bash
+git clone https://github.com/sunfoxcz/ipmiview
+cd ipmiview
 wget https://www.supermicro.com/wdl/utility/IPMIView/Linux/IPMIView_2.21.0_build.221118_bundleJRE_Linux_x64.tar.gz
 tar zxvf IPMIView_2.21.0_build.221118_bundleJRE_Linux_x64.tar.gz
 make
