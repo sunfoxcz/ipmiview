@@ -5,4 +5,4 @@ NAME = sunfoxcz/ipmiview
 all: build
 
 build:
-	docker build -t $(NAME):latest --rm -f Dockerfile .
+	docker build --ulimit "nofile=1024:524288" -t $(NAME):latest --rm -f Dockerfile .
